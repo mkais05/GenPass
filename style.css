@@ -54,3 +54,77 @@
         font-family: Copperplate Gothic Light ;
        }
       
+
+       /* 🌐 Tablet (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+    margin: 50px auto;
+    height: auto;
+    padding: 20px;
+  }
+
+  .pass {
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0;
+  }
+
+  input[type="text"] {
+    width: 320px;  
+    padding-left: 250px;
+    display: block;
+    font-size: 18px;
+    
+  }
+
+  input[type="checkbox"] {
+    margin-left: 110px;
+
+  }
+
+  .Tick {
+    padding-left: 200px;
+    font-size: 20px;
+  }
+
+  .box button {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+/* 📱 Mobile (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .box {
+    width: 300px;
+    margin: 40px auto;
+    padding: 15px;
+  }
+
+  .pass {
+    font-size: 20px;
+  }
+
+  input[type="text"] {
+   width :180px;
+     padding-left: 100px;
+   padding-left: -180px;
+    font-size: 16px;
+  }
+
+  .Tick {
+    margin-left: -190px;
+    font-size: 15px;
+  }
+
+  input[type="checkbox"] {
+    margin-left: 110px;
+    transform: scale(1.2);
+  }
+
+  .box button {
+    width: 90%;
+    font-size: 16px;
+  }
+}
