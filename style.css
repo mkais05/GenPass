@@ -18,7 +18,8 @@
     }
 
 .username{
-   font-family: Copperplate Gothic Light;
+   font-family: 'Cinzel', serif;
+            font-weight: 800;
             font-size: 25px;
             padding-left: 30px;
             padding-top: 15px;
@@ -37,7 +38,7 @@
         box-shadow: 0px 0px 30px black;
         color: white;
         text-shadow: 0px 0px 20px white;
-        font-family: Copperplate Gothic Light ;
+        font-family:	'Cinzel', serif;
 }
         .box1{
             border: 1px solid black;
@@ -51,7 +52,8 @@
             box-shadow: 0px 0px 15px rgb(255, 251, 251);
         }
         .pass{
-            font-family: Copperplate Gothic Light;
+            font-family: 'Cinzel', serif;
+            font-weight: 800;
             font-size: 25px;
             padding-left: 30px;
             padding-top: 15px;
@@ -91,8 +93,7 @@
         box-shadow: 0px 0px 30px black;
         color: white;
         text-shadow: 0px 0px 20px white;
-        font-family: Copperplate Gothic Light ;
-       }
+font-family:	'Cinzel', serif;       }
       
 
        /* 🌐 Tablet (max-width: 768px) */
