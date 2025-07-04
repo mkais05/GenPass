@@ -1,10 +1,11 @@
- document.body.style.background = "rgb(23, 22, 22)";
+ document.body.style.background = "rgba(0, 0, 0, 0.87)";
 
        window.onload = function (){
-        document.getElementById("Enter").value=""
+        document.getElementById("Enter").value="";
+         document.getElementById("Name").value="";
        }
         function code(){
-            let length = 15;
+            let length = 10;
             let charset = "abc23d4e5f2g1hi5j7kl7m4no8pq9rst74uvw68xyz";
                let password = "";
 
@@ -30,16 +31,18 @@
 
 
 
-setInterval(() => {
-    
-        document.body.style.background = disco();
-}, 100);
 
-        function disco() {
-            let num ="123456789ABCDEF";
-            let color ="#";
-            for(let i = 0 ; i < 6 ; i++){
-                color+=num[Math.floor(Math.random()*16)];
-            }
-            return color;
+
+
+          const adjective =["Cool", "Fast", "Funky", "Lazy", "Happy", "Crazy", "Silent", "Smart", "Angry", "Brave"];
+            const nouns =["Tiger", "Ninja", "Lion", "Wolf", "Panther", "Fox", "Shadow", "Ghost", "Wizard", "Falcon"];
+
+
+        function username(){
+            const adj=adjective[Math.floor(Math.random()*adjective.length)];
+            const n=nouns[Math.floor(Math.random()*nouns.length)];
+            const num=Math.floor(Math.random()*100);
+            const user=adj+n+num;
+
+            document.getElementById("Name").value=user;
         }

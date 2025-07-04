@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
+    <div class="main">  
+        
+        <div class="box2">  
+            <div class="username">Username Generator</div>
+            <div class="user">
+                <div class="screen">
+                     <label for="Name"></label>
+            <input type="text" id="Name" readonly placeholder="Your Username Here" >
+                </div>
+                <button onclick="username()">Generate</button>
+            </div>
+        </div>
+        <div class="box1">
         <div class="pass">Password Generator</div>
         <div class="output">
             <label for="Enter"></label>
@@ -33,6 +45,16 @@
 
         <button onclick="code()">Generate</button>
     </div>
+</div>
+
+
+
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
