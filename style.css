@@ -1,0 +1,56 @@
+  
+        .box{
+            border: 1px solid black;
+            background-color: rgb(242, 241, 241);
+            width: 350px;
+            height: 330px;
+            border-radius: 30px;
+            border: none;
+            margin-left: 360px ;
+            margin-top: 90px;
+            box-shadow: 0px 0px 15px rgb(255, 251, 251);
+        }
+        .pass{
+            font-family: Copperplate Gothic Light;
+            font-size: 25px;
+            padding-left: 30px;
+            padding-top: 15px;
+            text-shadow: 0px 0px 20px black;
+        }
+        input[type="text"]{
+            width: 240px;
+            height: 50px;
+            padding-left: 80px;
+            margin-left: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 10px black;
+            font-size: 20px;
+        }
+       input[type="checkbox"]{
+        width: 15px;
+        height: 15px;
+        margin-left:110px;
+       }
+       .Tick{
+        font-family: Lucida Bright;
+        font-size: 17px;
+        color: rgb(11, 2, 255);
+        padding-left: 30px;
+        padding-top: 20px;
+       }
+       .box button{
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: orangered;
+        margin-left:124px ;
+        box-shadow: 0px 0px 30px black;
+        color: white;
+        text-shadow: 0px 0px 20px white;
+        font-family: Copperplate Gothic Light ;
+       }
+      
